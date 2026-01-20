@@ -35,9 +35,15 @@ export function Navbar() {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
+      className={`
+    fixed top-0 left-0 right-0 z-50
+    transition-transform duration-300
+    ${isVisible ? 'translate-y-0' : '-translate-y-full'}
+    backdrop-blur-md           // ← makes content behind it blurred → stands out
+    bg-black/70                // ← semi-transparent dark bg (change opacity/color to match your design)
+    shadow-lg                  // ← drop shadow so it looks "above" content
+    border-b border-white/10   // optional subtle bottom border
+  `}
     >
       <div className="max-w-5xl mx-auto px-4 md:px-6 py-4 md:py-6">
         <div className="flex items-center justify-between">
