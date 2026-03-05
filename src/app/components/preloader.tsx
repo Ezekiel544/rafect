@@ -25,7 +25,7 @@ export function Preloader() {
             transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
           />
           
-          {/* Inner rotating ring */}
+          {/* Inner rotating rings */}
           <motion.div
             className="absolute inset-4 w-24 h-24 border-4 border-transparent border-b-gray-600 rounded-full"
             animate={{ rotate: 360 }}
