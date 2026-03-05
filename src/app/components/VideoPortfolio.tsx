@@ -179,7 +179,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
             </span>
           </div>
 
-          {/* Playing indicator */}
+          {/* Playing indicators */}
           {isPlaying && !hoveredIndex && (
             <motion.div
               className="absolute bottom-4 right-4 flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1 rounded-full"
