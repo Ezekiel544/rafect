@@ -68,7 +68,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
   const [hoveredIndex, setHoveredIndex] = useState(false);
   const cardInView = useInView(cardRef, { amount: 0.5 });
 
-  // Auto-play when card is in view
+  // Auto-play when card is in views
   useEffect(() => {
     if (cardInView && videoRef.current) {
       videoRef.current.play().catch(() => {
