@@ -138,7 +138,7 @@ export function Services() {
                     </motion.div>
                   </div>
 
-                  {/* Card content */}
+                  {/* Card content added*/}
                   <div className="p-6 sm:p-8">
                     <h3 className="text-white text-xl sm:text-2xl font-bold mb-4 group-hover:text-gray-300 transition-colors">
                       {service.title}
