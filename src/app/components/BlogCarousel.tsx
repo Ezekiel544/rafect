@@ -31,7 +31,7 @@ export function BlogCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState(0);
 
-  // Number of visible cards — you can make this dynamic later if needed
+  // Number of visible cards — you can make this dynamic later if needed here
   const visibleCount = typeof window !== 'undefined' && window.innerWidth >= 768 ? 3 : 1;
 
   useEffect(() => {
