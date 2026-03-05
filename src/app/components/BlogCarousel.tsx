@@ -35,7 +35,7 @@ export function BlogCarousel() {
   const visibleCount = typeof window !== 'undefined' && window.innerWidth >= 768 ? 3 : 1;
 
   useEffect(() => {
-    const DURATION = 5000; // 5 seconds
+    const DURATION = 5000; // 5 seconds here
     const INTERVAL_MS = 40;
     const STEP = (100 / DURATION) * INTERVAL_MS;
 
