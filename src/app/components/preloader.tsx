@@ -9,7 +9,7 @@ export function Preloader() {
       transition={{ duration: 0.5, delay: 0.3 }}
     >
       <div className="flex flex-col items-center gap-16">
-        {/* Rotating rings container */}
+        {/* Rotating rings containers */}
         <div className="relative w-32 h-32">
           {/* Outer rotating rings */}
           <motion.div
