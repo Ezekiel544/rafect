@@ -121,7 +121,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
       >
         {/* Video player */}
         <div className="relative aspect-video overflow-hidden ">
-          {/* Actual video element */}
+          {/* Actual video elements*/}
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
