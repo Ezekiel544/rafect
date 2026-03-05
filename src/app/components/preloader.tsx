@@ -43,7 +43,7 @@ export function Preloader() {
           </motion.div>
         </div>
         
-        {/* Loading text here*/}
+        {/* Loading text here now*/}
         <motion.div
           className="text-white text-xl tracking-widest"
           initial={{ opacity: 0, y: 20 }}
