@@ -41,7 +41,7 @@ export function SkillsMarquee() {
               <h3 className="text-white/60 text-sm tracking-wider">{category.title}</h3>
             </div>
             
-            {/* Marquee container */}
+            {/* Marquee container added*/}
             <div className="relative overflow-hidden">
               <motion.div
                 className="flex gap-6 whitespace-nowrap"
