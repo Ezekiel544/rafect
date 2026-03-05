@@ -136,7 +136,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
 
           <div className="absolute inset-0  to-transparent pointer-events-none" />
 
-          {/* Video controls overlay */}
+          {/* Video controls overlays */}
           <motion.div
             className="absolute inset-0 flex items-center justify-center gap-4"
             initial={{ opacity: 0 }}
