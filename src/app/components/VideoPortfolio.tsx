@@ -197,7 +197,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           )}
         </div>
 
-        {/* Video info */}
+        {/* Video infos */}
         <div className="p-6">
           <h3 className="text-white text-lg sm:text-xl font-bold mb-2 group-hover:text-gray-300 transition-colors">
             {video.title}
