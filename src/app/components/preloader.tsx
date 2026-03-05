@@ -11,7 +11,7 @@ export function Preloader() {
       <div className="flex flex-col items-center gap-16">
         {/* Rotating rings container */}
         <div className="relative w-32 h-32">
-          {/* Outer rotating ring */}
+          {/* Outer rotating rings */}
           <motion.div
             className="absolute inset-0 w-32 h-32 border-4 border-transparent border-t-white rounded-full"
             animate={{ rotate: 360 }}
