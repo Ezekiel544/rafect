@@ -53,7 +53,7 @@ export function BlogCarousel() {
     return () => clearInterval(interval);
   }, []);
 
-  // How many cards we actually render in the current view
+  // How many cards we actually render in the current view here
   const cardsToShow = Math.min(visibleCount, blogs.length);
 
   return (
