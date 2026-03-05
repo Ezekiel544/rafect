@@ -212,7 +212,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
             whileHover={{ x: 5 }}
             transition={{ duration: 0.2 }}
           >
-            <span>View Project</span>
+            <span>View Projects</span>
             <ExternalLink className="w-4 h-4" />
           </motion.button> */}
         </div>
