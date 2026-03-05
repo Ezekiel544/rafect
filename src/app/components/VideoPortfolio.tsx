@@ -206,7 +206,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
             {video.description}
           </p> */}
 
-          {/* View button */}
+          {/* View buttons*/}
           {/* <motion.button
             className="flex items-center gap-2 text-white text-sm font-semibold"
             whileHover={{ x: 5 }}
