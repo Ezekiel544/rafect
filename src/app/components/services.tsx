@@ -112,7 +112,7 @@ export function Services() {
                   whileHover={{ borderColor: '#ffffff' }}
                   transition={{ duration: 0.3 }}
                 >
-                  {/* Card image */}
+                  {/* Card image added */}
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <motion.div
                       className="absolute inset-0"
