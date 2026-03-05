@@ -32,7 +32,7 @@ export function Preloader() {
             transition={{ duration: 2.5, repeat: Infinity, ease: "linear" }}
           />
           
-          {/* Center pulsing dot here*/}
+          {/* Center pulsing dot here now*/}
           <motion.div
             className="absolute inset-0 flex items-center justify-center"
             initial={{ scale: 0.8, opacity: 0.5 }}
