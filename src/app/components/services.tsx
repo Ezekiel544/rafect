@@ -164,7 +164,7 @@ export function Services() {
           })}
         </div>
 
-        {/* Additional features section */}
+        {/* Additional features section added*/}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
