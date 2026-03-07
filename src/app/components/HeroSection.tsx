@@ -80,7 +80,7 @@ export function HeroSection() {
                 />
               </motion.div>
               
-              {/* Circular text overlay now*/}
+              {/* Circular text overlay */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <motion.svg 
                   viewBox="0 0 200 200" 
