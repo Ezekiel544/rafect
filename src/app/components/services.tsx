@@ -92,7 +92,7 @@ export function Services() {
           </p>
         </motion.div>
 
-        {/* Services grid added*/}
+        {/* Services grid added here*/}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
