@@ -56,7 +56,7 @@ export function HeroSection() {
             </motion.button>
           </div>
           
-          {/* 3D Globe - Order 1 on mobile, 2 on desktop now*/}
+          {/* 3D Globe - Order 1 on mobile, 2 on desktop*/}
           <div className="order-1 lg:order-2 flex items-center justify-center">
             <div className="relative w-full max-w-md mx-auto">
               <motion.div
