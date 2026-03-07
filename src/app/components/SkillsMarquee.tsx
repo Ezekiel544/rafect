@@ -54,7 +54,7 @@ export function SkillsMarquee() {
                   ease: 'linear'
                 }}
               >
-                {/* Duplicate the skills array for seamless loops here*/}
+                {/* Duplicate the skills array for seamless loops */}
                 {[...category.skills, ...category.skills].map((skill, idx) => (
                   <div
                     key={idx}
