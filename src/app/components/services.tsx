@@ -148,7 +148,7 @@ export function Services() {
                     </p>
                   </div>
 
-                  {/* Animated border effect added*/}
+                  {/* Animated border effect */}
                   <motion.div
                     className="absolute inset-0 border-2 border-white/0 rounded-2xl pointer-events-none"
                     whileHover={{
