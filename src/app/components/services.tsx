@@ -69,7 +69,7 @@ export function Services() {
       />
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section header added*/}
+        {/* Section header added here*/}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
