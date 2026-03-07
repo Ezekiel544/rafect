@@ -144,7 +144,7 @@ export function BlogCarousel() {
             </AnimatePresence>
           </div>
 
-          {/* Progress Indicators here*/}
+          {/* Progress Indicators */}
           <div className="flex justify-center gap-4 mt-8">
             {blogs.map((_, idx) => (
               <button
