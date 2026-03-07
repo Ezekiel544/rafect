@@ -75,7 +75,7 @@ export function BlogCarousel() {
             I publish detailed write-ups on my latest security research findings after full remediation & responsible disclosure.
           </p>
 
-          {/* Carousel Container  */}
+          {/* Carousel Container*/}
           <div className="relative relative 
   min-h-[280px]      /* smaller base height for mobile */
   sm:min-h-[320px] 
