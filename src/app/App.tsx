@@ -39,7 +39,7 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="min-h-screen bg-black relative overflow-x-hidden"
         >
-          {/* Grid background [*/}
+          {/* Grid background */}
           <div
             className="fixed inset-0 pointer-events-none z-0"
             style={{
