@@ -238,7 +238,7 @@ export function VideoPortfolio() {
 
   return (
     <section className="relative py-20 lg:py-32 overflow-hidden">
-      {/* Background decorations */}
+      {/* Background decorations*/}
       <motion.div
         className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"
         animate={{
