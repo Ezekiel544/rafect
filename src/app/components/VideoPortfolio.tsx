@@ -217,7 +217,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           </motion.button> */}
         </div>
 
-        {/* Animated glow effects */}
+        {/* Animated glow effects*/}
         <motion.div
           className="absolute inset-0 pointer-events-none rounded-2xl"
           animate={{
