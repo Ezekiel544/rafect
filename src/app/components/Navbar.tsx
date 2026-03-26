@@ -11,10 +11,10 @@ export function Navbar() {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY < lastScrollY) {
-        // Scrolling up here now for now here
+        // Scrolling up
         setIsVisible(true);
       } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        // Scrolling down 
+        // Scrolling down
         setIsVisible(false);
       }
       
