@@ -7,13 +7,13 @@ export function Navbar() {
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handcroll = () => {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY < lastScrollY) {
         // Scrolling up here now for now here
         setIsVisible(true);
-      } else if (currentScrollY > ScrollY && currentScrollY > 100) {
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
         // Scrolling down 
         setIsVisible(false);
       }
