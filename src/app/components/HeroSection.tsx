@@ -7,12 +7,12 @@ export function HeroSection() {
       <div className="max-w-7xl w-full mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Text Content - Order 2 on mobile, 1 on desktop here */}
-          <div className="order-2 lg:order-1 space-y-4 md:space-y-6">
+          {/* <div className="order-2 lg:order-1 space-y-4 md:space-y-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-            >
+            > */}
               <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight">
                 <span className="text-white">RAFET</span>
                 <br />
