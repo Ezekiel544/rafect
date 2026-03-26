@@ -42,7 +42,7 @@ export function HeroSection() {
               <div className="flex items-center gap-2 text-white/80">
                 <span className="text-xl">⚙️</span>
                 <span>Senior Software Engineer</span>
-              </div>
+              {/* </div>
             </motion.div>
             
             <motion.button
@@ -54,7 +54,7 @@ export function HeroSection() {
               <span className="text-sm">📄</span>
               <span>View my Resume</span>
             </motion.button>
-          </div>
+          </div> */}
           
           {/* 3D Globe - Order 1 on mobile, 2 on desktop*/}
           <div className="order-1 lg:order-2 flex items-center justify-center">
