@@ -167,7 +167,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               {isMuted ? (
                 <VolumeX className="w-5 h-5 text-white" />
               ) : (
-                <Volume2 className="w-5 h-5 text-white" />
+                // <Volume2 className="w-5 h-5 text-white" />
               )}
             </motion.button>
           </motion.div>
