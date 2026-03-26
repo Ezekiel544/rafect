@@ -4,15 +4,15 @@ export function AboutSection() {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 md:px-6 py-20">
       <div className="max-w-4xl w-full mx-auto">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-        >
-          {/* <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
+        > */}
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
             <span className="border-l-4 border-white pl-4">WHO IS RVFET?</span>
-          </h2> */}
+          </h2>
           <p className="text-xs md:text-sm text-white/60 mb-6 md:mb-8">Everything you need to know about me.</p>
           
           <div className="space-y-6 text-white/80 leading-relaxed">
