@@ -7,7 +7,7 @@ export function Navbar() {
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
-    const handcroll = () => {
+    const handleScroll = () => {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY < lastScrollY) {
@@ -18,7 +18,7 @@ export function Navbar() {
         setIsVisible(false);
       }
       
-      setLastScrollY(currentScrollY);
+     
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
