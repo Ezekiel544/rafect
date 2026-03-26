@@ -31,12 +31,12 @@ export function Footer() {
               <span className="w-2 h-2 bg-purple-500 rounded-full" />
               <span>Basecoat</span>
             </span>
-            <span>Hosted by</span>
+            {/* <span>Hosted by</span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-orange-500 rounded-full" />
               <span>Cloudflare</span>
             </span>
-          </div>
+          </div> */}
           
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a href="#" className="px-4 py-2 bg-white/10 hover:bg-white/20 transition-colors text-white text-sm">
@@ -50,9 +50,9 @@ export function Footer() {
             </a>
           </div>
           
-          {/* <p className="text-white/40 text-xs">
+          <p className="text-white/40 text-xs">
             Last build: Jan 20 06:37 UTC BLZ#:991
-          </p> */}
+          </p>
         </motion.div>
       </div>
     </footer>
