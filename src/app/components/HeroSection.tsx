@@ -6,7 +6,7 @@ export function HeroSection() {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-20 md:py-24 relative overflow-hidden">
       <div className="max-w-7xl w-full mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Text Content - Order 2 on mobile, 1 on desktop  now*/}
+          {/* Text Content - Order 2 on mobile, 1 on desktop  now here*/}
           <div className="order-2 lg:order-1 space-y-4 md:space-y-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
