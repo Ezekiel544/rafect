@@ -18,18 +18,18 @@ const blogs = [
     link: '#'
   },
   {
-    id: 3,
-    emoji: '🔓',
-    title: 'CVSS 9.6 Account Takeover in Azerbaijan\'s Most Visited Platforms',
-    category: 'Affected Company: Baku Service Platforms',
-    description: 'How an OAuth token bypass through Open Redirect enabled complete account takeover on...',
+    // id: 3,
+    // emoji: '🔓',
+    // title: 'CVSS 9.6 Account Takeover in Azerbaijan\'s Most Visited Platforms',
+    // category: 'Affected Company: Baku Service Platforms',
+    // description: 'How an OAuth token bypass through Open Redirect enabled complete account takeover on...',
     link: '#'
   }
 ];
 
 export function BlogCarousel() {
-  // const [currentIndex, setCurrentIndex] = useState(0);
-  // const [progress, setProgress] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
 
   // Number of visible cards — you can make this dynamic later if needed 
   const visibleCount = typeof window !== 'undefined' && window.innerWidth >= 768 ? 3 : 1;
