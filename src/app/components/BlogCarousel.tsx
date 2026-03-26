@@ -36,8 +36,8 @@ export function BlogCarousel() {
 
   useEffect(() => {
     const DURATION = 5000; // 5 seconds 
-    // const INTERVAL_MS = 40;
-    // const STEP = (100 / DURATION) * INTERVAL_MS;
+    const INTERVAL_MS = 40;
+    const STEP = (100 / DURATION) * INTERVAL_MS;
 
     const interval = setInterval(() => {
       setProgress((prev) => {
@@ -92,8 +92,8 @@ export function BlogCarousel() {
                 className="flex h-full"
               >
                 {Array.from({ length: cardsToShow }).map((_, offset) => {
-                  const displayIndex = (currentIndex + offset) % blogs.length;
-                  const blog = blogs[displayIndex];
+                  // const displayIndex = (currentIndex + offset) % blogs.length;
+                  // const blog = blogs[displayIndex];
 
                   return (
                     <div
