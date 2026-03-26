@@ -38,9 +38,9 @@ const videos = [
     id: 4,
     title: 'meduim onboarding class',
     description: 'Animated breakdown of complex DeFi mechanics',
-    // thumbnail: 'animation motion graphics',
-    // category: 'Motion Design',
-    // videoUrl: Videofour,
+    thumbnail: 'animation motion graphics',
+    category: 'Motion Design',
+    videoUrl: Videofour,
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
     if (cardInView && videoRef.current) {
       videoRef.current.play().catch(() => {
         // Auto-play might be blocked by browser
-        console.log('Auto-play blocked');
+        // console.log('Auto-play blocked');
       });
       setIsPlaying(true);
     } else if (!cardInView && videoRef.current) {
