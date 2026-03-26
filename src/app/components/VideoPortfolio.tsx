@@ -93,12 +93,12 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
     }
   };
 
-  // const toggleMute = () => {
-  //   if (videoRef.current) {
-  //     videoRef.current.muted = !isMuted;
-  //     setIsMuted(!isMuted);
-  //   }
-  // };
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
 
   return (
     <motion.div
@@ -145,10 +145,10 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           >
             {/* Play/Pause button */}
             <motion.button
-              // onClick={togglePlayPause}
-              // className="bg-white/20 backdrop-blur-sm border-2 border-white rounded-full p-6 hover:bg-white/30 transition-colors"
-              // whileHover={{ scale: 1.2 }}
-              // whileTap={{ scale: 0.9 }}
+              onClick={togglePlayPause}
+              className="bg-white/20 backdrop-blur-sm border-2 border-white rounded-full p-6 hover:bg-white/30 transition-colors"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
             >
               {isPlaying ? (
                 <Pause className="w-8 h-8 text-white fill-white" />
