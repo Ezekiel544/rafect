@@ -60,7 +60,7 @@ export function Services() {
     <section className="relative py-20 lg:py-32 overflow-hidden">
       {/* Background elements added*/}
       <motion.div
-        className="absolute top-1/2 left-0 w-96 h-96 bg-gray-700/20 rounded-full blur-3xl"
+        // className="absolute top-1/2 left-0 w-96 h-96 bg-gray-700/20 rounded-full blur-3xl"
         animate={{
           x: [-100, 100, -100],
           y: [-50, 50, -50],
