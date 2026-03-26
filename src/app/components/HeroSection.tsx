@@ -13,7 +13,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              {/* <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight">
                 <span className="text-white">RAFET</span>
                 <br />
                 <span className="text-white" style={{ 
@@ -22,7 +22,7 @@ export function HeroSection() {
                 }}>
                   ABBASLI
                 </span>
-              </h1> */}
+              </h1>
             </motion.div>
             
             <motion.div
