@@ -56,11 +56,11 @@ export function ProjectsSection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
             <span className="border-l-4 border-white pl-4">STUFF I'VE BUILT & RESEARCHED</span>
           </h2>
-          <p className="text-xs md:text-sm text-white/60 mb-8 md:mb-12">
+          {/* <p className="text-xs md:text-sm text-white/60 mb-8 md:mb-12">
             Security research, infrastructure engineering, and the occasional rabbit hole.
-          </p>
+          </p> */}
           
-          {/* <div className="space-y-4">
+          <div className="space-y-4">
             {projects.map((project, idx) => (
               <motion.div
                 key={project.id}
@@ -69,7 +69,7 @@ export function ProjectsSection() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: idx * 0.1 }}
                 className="bg-black/40 border border-white/10 overflow-hidden hover:border-white/30 transition-colors"
-              > */}
+              >
                 <button
                   onClick={() => toggleExpand(project.id)}
                   className="w-full p-6 md:p-8 flex items-start gap-4 text-left"
