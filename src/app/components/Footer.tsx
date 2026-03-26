@@ -16,10 +16,10 @@ export function Footer() {
           </p>
           
           <div className="flex flex-wrap items-center justify-center gap-3 text-white/60 text-sm">
-            <span>Built using</span>
+            {/* <span>Built using</span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-blue-500 rounded-full" />
-              <span>Astro</span>
+              <span>Astro</span> */}
             </span>
             <span>styled using</span>
             <span className="flex items-center gap-2">
@@ -31,12 +31,12 @@ export function Footer() {
               <span className="w-2 h-2 bg-purple-500 rounded-full" />
               <span>Basecoat</span>
             </span>
-            {/* <span>Hosted by</span>
+            <span>Hosted by</span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-orange-500 rounded-full" />
               <span>Cloudflare</span>
             </span>
-          </div> */}
+          </div>
           
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a href="#" className="px-4 py-2 bg-white/10 hover:bg-white/20 transition-colors text-white text-sm">
