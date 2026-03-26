@@ -202,19 +202,19 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           <h3 className="text-white text-lg sm:text-xl font-bold mb-2 group-hover:text-gray-300 transition-colors">
             {video.title}
           </h3>
-          {/* <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
+           <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
             {video.description}
-          </p> */}
+          </p> 
 
           {/* View buttons*/}
-          {/* <motion.button
+           <motion.button
             className="flex items-center gap-2 text-white text-sm font-semiboldt"
             whileHover={{ x: 5 }}
             transition={{ duration: 0.2 }}
           >
             <span>View Projects</span>
             <ExternalLink className="w-4 h-4" />
-          </motion.button> */}
+          </motion.button> 
         </div>
 
         {/* Animated glow effects*/}
