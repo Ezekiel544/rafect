@@ -11,15 +11,15 @@ export function Footer() {
           transition={{ duration: 0.6 }}
           className="text-center space-y-6"
         >
-          <p className="text-white/60 text-sm">
+          {/* <p className="text-white/60 text-sm">
             © 2026 RVFET. All rights reserved.
-          </p>
+          </p> */}
           
           <div className="flex flex-wrap items-center justify-center gap-3 text-white/60 text-sm">
-            {/* <span>Built using</span>
+            <span>Built using</span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-blue-500 rounded-full" />
-              <span>Astro</span> */}
+              <span>Astro</span>
             </span>
             <span>styled using</span>
             <span className="flex items-center gap-2">
