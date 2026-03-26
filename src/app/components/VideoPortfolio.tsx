@@ -167,7 +167,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               {isMuted ? (
                 <VolumeX className="w-5 h-5 text-white" />
               ) : (
-                // <Volume2 className="w-5 h-5 text-white" />
+                <Volume2 className="w-5 h-5 text-white" />
               )}
             </motion.button>
           </motion.div>
@@ -182,10 +182,10 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           {/* Playing indicators */}
           {isPlaying && !hoveredIndex && (
             <motion.div
-              className="absolute bottom-4 right-4 flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1 rounded-full"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.5 }}
+              // className="absolute bottom-4 right-4 flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1 rounded-full"
+              // initial={{ opacity: 0, scale: 0.5 }}
+              // animate={{ opacity: 1, scale: 1 }}
+              // exit={{ opacity: 0, scale: 0.5 }}
             >
               <motion.div
                 className="w-2 h-2 bg-red-500 rounded-full"
