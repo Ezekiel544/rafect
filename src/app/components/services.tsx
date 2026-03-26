@@ -31,7 +31,7 @@ const services = [
     {
     icon: Badge,
     title: 'Web3 Marketing Strategist',
-    description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
+    // description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
     imageUrl: Firstimg,
     linkUrl: '#',
   },
@@ -69,7 +69,7 @@ export function Services() {
       />
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section header now*/}
+        {/* Section header added here now*/}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
