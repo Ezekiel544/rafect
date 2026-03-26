@@ -25,7 +25,7 @@ export function CodingStatsSection() {
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl mb-8 md:mb-12 text-white text-center">
             <span className="border-l-4 border-white pl-4 inline-block">
-              {/* CODED FOR <span className="inline-block px-3 md:px-4 py-1 border border-white mx-2">1642 HOURS & 38 MINUTES</span> THIS YEAR */}
+              CODED FOR <span className="inline-block px-3 md:px-4 py-1 border border-white mx-2">1642 HOURS & 38 MINUTES</span> THIS YEAR
             </span>
           </h2>
           <p className="text-xs md:text-sm text-white/60 mb-8 md:mb-12 text-center">
