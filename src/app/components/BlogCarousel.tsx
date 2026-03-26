@@ -162,9 +162,9 @@ export function BlogCarousel() {
                     transition={{ duration: 0.1, ease: 'linear' }}
                   />
                 </div>
-                {/* <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-white/60 text-xs group-hover:text-white transition-colors">
+                <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-white/60 text-xs group-hover:text-white transition-colors">
                   {idx + 1}
-                </span> */}
+                </span>
               </button>
             ))}
           </div>

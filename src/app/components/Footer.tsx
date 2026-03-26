@@ -50,9 +50,9 @@ export function Footer() {
             </a>
           </div>
           
-          <p className="text-white/40 text-xs">
+          {/* <p className="text-white/40 text-xs">
             Last build: Jan 20 06:37 UTC BLZ#:991
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </footer>
