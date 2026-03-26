@@ -18,10 +18,10 @@ export function Navbar() {
         setIsVisible(false);
       }
       
-      setLastSc(currentScrollY);
+      setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('scroll', Scroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY]);
 
