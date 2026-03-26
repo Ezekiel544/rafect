@@ -60,13 +60,13 @@ const videos = [
   },
 ];
 
-function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index: number; isInView: boolean }) {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const cardRef = useRef<HTMLDivElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  // const [isMuted, setIsMuted] = useState(true);
-  // const [hoveredIndex, setHoveredIndex] = useState(false);
-  // const cardInView = useInView(cardRef, { amount: 0.5 });
+// function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index: number; isInView: boolean }) {
+//   const videoRef = useRef<HTMLVideoElement>(null);
+//   const cardRef = useRef<HTMLDivElement>(null);
+//   const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
+  const [hoveredIndex, setHoveredIndex] = useState(false);
+  const cardInView = useInView(cardRef, { amount: 0.5 });
 
   // Auto-play when card is in views
   useEffect(() => {
