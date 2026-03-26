@@ -13,7 +13,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              {/* <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight">
                 <span className="text-white">RAFET</span>
                 <br />
                 <span className="text-white" style={{ 
@@ -24,14 +24,14 @@ export function HeroSection() {
                 </span>
               </h1>
             </motion.div>
-             */}
+            
             <motion.div
               className="flex flex-col gap-3"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="flex items-center gap-2 text-white/80">
+              {/* <div className="flex items-center gap-2 text-white/80">
                 <span className="text-xl">⚔️</span>
                 <span>Offensive Security Researcher</span>
               </div>
@@ -42,7 +42,7 @@ export function HeroSection() {
               <div className="flex items-center gap-2 text-white/80">
                 <span className="text-xl">⚙️</span>
                 <span>Senior Software Engineer</span>
-              </div>
+              </div> */}
             </motion.div>
             
             <motion.button
