@@ -45,7 +45,7 @@ export function HeroSection() {
               </div>
             </motion.div>
             
-            <motion.button
+            {/* <motion.button
               className="mt-8 px-6 py-3 border border-white text-white hover:bg-white hover:text-black transition-colors duration-300 flex items-center gap-2"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ export function HeroSection() {
             >
               <span className="text-sm">📄</span>
               <span>View my Resume</span>
-            </motion.button>
+            </motion.button> */}
           </div>
           
           {/* 3D Globe - Order 1 on mobile, 2 on desktop*/}
