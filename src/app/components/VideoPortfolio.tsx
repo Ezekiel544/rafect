@@ -82,23 +82,23 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
     }
   }, [cardInView]);
 
-  // const togglePlayPause = () => {
-  //   if (videoRef.current) {
-  //     if (isPlaying) {
-  //       videoRef.current.pause();
-  //     } else {
-  //       videoRef.current.play();
-  //     }
-  //     setIsPlaying(!isPlaying);
-  //   }
-  // };
-
-  const toggleMute = () => {
+  const togglePlayPause = () => {
     if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
     }
   };
+
+  // const toggleMute = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.muted = !isMuted;
+  //     setIsMuted(!isMuted);
+  //   }
+  // };
 
   return (
     <motion.div
