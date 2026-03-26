@@ -18,7 +18,7 @@ export function Navbar() {
         setIsVisible(false);
       }
       
-      setLastScrollY(currentScrollY);
+      setLastSc(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
