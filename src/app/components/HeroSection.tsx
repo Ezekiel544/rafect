@@ -98,10 +98,10 @@ export function HeroSection() {
                       d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
                     />
                   </defs>
-                  {/* <text className="fill-white/40 text-[8px] tracking-widest uppercase" style={{ fontFamily: 'monospace' }}>
+                  <text className="fill-white/40 text-[8px] tracking-widest uppercase" style={{ fontFamily: 'monospace' }}>
                     <textPath href="#circlePath" startOffset="0%">
                       LANDING OF OFFENSE — OFFENSIVE SECURITY RESEARCH — LANDING OF OFFENSE — 
-                    </textPath> */}
+                    </textPath>
                   </text>
                 </motion.svg>
               </div>
