@@ -22,7 +22,7 @@ const blogs = [
     emoji: '🔓',
     title: 'CVSS 9.6 Account Takeover in Azerbaijan\'s Most Visited Platforms',
     category: 'Affected Company: Baku Service Platforms',
-    // description: 'How an OAuth token bypass through Open Redirect enabled complete account takeover on...',
+    description: 'How an OAuth token bypass through Open Redirect enabled complete account takeover on...',
     link: '#'
   }
 ];
