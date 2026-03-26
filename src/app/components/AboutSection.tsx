@@ -10,9 +10,9 @@ export function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
+          {/* <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
             <span className="border-l-4 border-white pl-4">WHO IS RVFET?</span>
-          </h2>
+          </h2> */}
           <p className="text-xs md:text-sm text-white/60 mb-6 md:mb-8">Everything you need to know about me.</p>
           
           <div className="space-y-6 text-white/80 leading-relaxed">
