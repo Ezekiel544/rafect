@@ -36,8 +36,8 @@ export function BlogCarousel() {
 
   useEffect(() => {
     const DURATION = 5000; // 5 seconds 
-    const INTERVAL_MS = 40;
-    const STEP = (100 / DURATION) * INTERVAL_MS;
+    // const INTERVAL_MS = 40;
+    // const STEP = (100 / DURATION) * INTERVAL_MS;
 
     const interval = setInterval(() => {
       setProgress((prev) => {
