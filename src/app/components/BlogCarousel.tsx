@@ -92,8 +92,8 @@ export function BlogCarousel() {
                 className="flex h-full"
               >
                 {Array.from({ length: cardsToShow }).map((_, offset) => {
-                  // const displayIndex = (currentIndex + offset) % blogs.length;
-                  // const blog = blogs[displayIndex];
+                  const displayIndex = (currentIndex + offset) % blogs.length;
+                  const blog = blogs[displayIndex];
 
                   return (
                     <div
@@ -155,13 +155,13 @@ export function BlogCarousel() {
                 }}
                 className="relative group"
               >
-                <div className="w-16 h-1 bg-white/20 rounded-full overflow-hidden">
+                {/* <div className="w-16 h-1 bg-white/20 rounded-full overflow-hidden">
                   <motion.div
                     className="h-full bg-white"
                     animate={{ width: idx === currentIndex ? `${progress}%` : 0 }}
                     transition={{ duration: 0.1, ease: 'linear' }}
                   />
-                </div>
+                </div> */}
                 <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-white/60 text-xs group-hover:text-white transition-colors">
                   {idx + 1}
                 </span>
