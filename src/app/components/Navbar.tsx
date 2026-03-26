@@ -13,7 +13,7 @@ export function Navbar() {
       if (currentScrollY < lastScrollY) {
         // Scrolling up here now for now here
         setIsVisible(true);
-      } lastScrollY && currentScrollY > 100) {
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
         // Scrolling down 
         setIsVisible(false);
       }
