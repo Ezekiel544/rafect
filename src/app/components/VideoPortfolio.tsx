@@ -239,14 +239,14 @@ export function VideoPortfolio() {
   return (
     <section className="relative py-20 lg:py-32 overflow-hidden">
       {/* Background decorations*/}
-      {/* <motion.div
+      <motion.div
         className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"
         animate={{
           scale: [1, 1.3, 1],
           opacity: [0.2, 0.4, 0.2],
         }}
         transition={{ duration: 10, repeat: Infinity }}
-      /> */}
+      />
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section header */}
@@ -279,13 +279,13 @@ export function VideoPortfolio() {
           ))}
 
           {/* CTA Card - "Your Project Here" */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: -100, rotateY: -15 }}
             animate={isInView ? { opacity: 1, x: 0, rotateY: 0 } : { opacity: 0, x: -100, rotateY: -15 }}
             exit={{ opacity: 0, x: 100, rotateY: 15 }}
             transition={{ duration: 0.6, delay: videos.length * 0.1 }}
             className="group relative"
-          >
+          > */}
            
           </motion.div>
         </div>
