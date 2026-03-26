@@ -31,7 +31,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              {/* <div className="flex items-center gap-2 text-white/80">
+              <div className="flex items-center gap-2 text-white/80">
                 <span className="text-xl">⚔️</span>
                 <span>Offensive Security Researcher</span>
               </div>
@@ -42,7 +42,7 @@ export function HeroSection() {
               <div className="flex items-center gap-2 text-white/80">
                 <span className="text-xl">⚙️</span>
                 <span>Senior Software Engineer</span>
-              </div> */}
+              </div>
             </motion.div>
             
             <motion.button
