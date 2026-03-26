@@ -21,8 +21,8 @@ export function Navbar() {
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', Scroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.rEventListener('scroll', handleScroll);
   }, [lastScrollY]);
 
   useEffect(() => {
