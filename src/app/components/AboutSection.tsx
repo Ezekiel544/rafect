@@ -16,10 +16,10 @@ export function AboutSection() {
           <p className="text-xs md:text-sm text-white/60 mb-6 md:mb-8">Everything you need to know about me.</p>
           
           <div className="space-y-6 text-white/80 leading-relaxed">
-            {/* <p>
+            <p>
               I'm a <strong className="text-white">Senior Software Engineer</strong> and <strong className="text-white">Offensive Security Researcher</strong> from Baku, Azerbaijan.
             </p>
-             */}
+            
             <p>
               I hold <strong className="text-white">Bachelor's degree in Information Technologies (IT)</strong> and <strong className="text-white">Master's degree in Management Information Systems (MIS)</strong>.
             </p>
