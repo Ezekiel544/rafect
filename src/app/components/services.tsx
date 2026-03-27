@@ -28,13 +28,13 @@ const services = [
       linkUrl: '#',
      
   },
-    {
-    icon: Badge,
-    title: 'Web3 Marketing Strategist',
-    description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
-    imageUrl: Firstimg,
-    linkUrl: '#',
-  },
+  //   {
+  //   icon: Badge,
+  //   title: 'Web3 Marketing Strategist',
+  //   description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
+  //   imageUrl: Firstimg,
+  //   linkUrl: '#',
+  // },
   {
     icon: Image,
     title: 'VC & Market Analysis',
