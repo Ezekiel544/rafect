@@ -20,14 +20,14 @@ const services = [
     imageUrl: Secondimg,
     linkUrl: '#',
   },
-  // {
-  //   icon: Bookmark,
-  //   title: 'Community Building',
-  //   description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
-  //    imageUrl: Thirdimg,
-  //     linkUrl: '#',
+  {
+    icon: Bookmark,
+    title: 'Community Building',
+    description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
+     imageUrl: Thirdimg,
+      linkUrl: '#',
      
-  // },
+  },
     {
     icon: Badge,
     title: 'Web3 Marketing Strategist',
