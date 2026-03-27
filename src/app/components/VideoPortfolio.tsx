@@ -293,9 +293,9 @@ export function VideoPortfolio() {
         {/* Stats section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
-          // animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-          // transition={{ duration: 0.8, delay: 1 }}
-          // className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8"
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {[
             { label: 'Raised for projects', value: '$10m+' },
@@ -310,10 +310,10 @@ export function VideoPortfolio() {
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
             >
-              <motion.div
+              {/* <motion.div
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-2"
                 whileHover={{ scale: 1.1 }}
-              >
+              > */}
                 {stat.value}
               </motion.div>
               <div className="text-gray-400 text-sm sm:text-base">
