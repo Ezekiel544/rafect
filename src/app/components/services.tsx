@@ -107,11 +107,11 @@ export function Services() {
                 whileHover={{ y: -10 }}
                 className="group relative"
               >
-                {/* <motion.div
+                <motion.div
                   className="relative bg-gray-900 border-2 border-gray-800 rounded-2xl overflow-hidden h-full"
                   whileHover={{ borderColor: '#ffffff' }}
                   transition={{ duration: 0.3 }}
-                > */}
+                >
                   {/* Card image added */}
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <motion.div
