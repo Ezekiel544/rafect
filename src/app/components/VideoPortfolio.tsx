@@ -63,10 +63,10 @@ const videos = [
 function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index: number; isInView: boolean }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
-  // const [isPlaying, setIsPlaying] = useState(false);
-  // const [isMuted, setIsMuted] = useState(true);
-  // const [hoveredIndex, setHoveredIndex] = useState(false);
-  // const cardInView = useInView(cardRef, { amount: 0.5 });
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
+  const [hoveredIndex, setHoveredIndex] = useState(false);
+  const cardInView = useInView(cardRef, { amount: 0.5 });
 
   // Auto-play when card is in views
   useEffect(() => {
@@ -101,16 +101,16 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
   };
 
   return (
-    <motion.div
-      ref={cardRef}
-      initial={{ opacity: 0, x: -100, rotateY: -15 }}
-      animate={isInView ? { opacity: 1, x: 0, rotateY: 0 } : { opacity: 0, x: -100, rotateY: -15 }}
-      exit={{ opacity: 0, x: 100, rotateY: 15 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      onHoverStart={() => setHoveredIndex(true)}
-      onHoverEnd={() => setHoveredIndex(false)}
-      className="group relative"
-    >
+    // <motion.div
+    //   ref={cardRef}
+    //   initial={{ opacity: 0, x: -100, rotateY: -15 }}
+    //   animate={isInView ? { opacity: 1, x: 0, rotateY: 0 } : { opacity: 0, x: -100, rotateY: -15 }}
+    //   exit={{ opacity: 0, x: 100, rotateY: 15 }}
+    //   transition={{ duration: 0.6, delay: index * 0.1 }}
+    //   onHoverStart={() => setHoveredIndex(true)}
+    //   onHoverEnd={() => setHoveredIndex(false)}
+    //   className="group relative"
+    // >
       <motion.div
         className="relative  rounded-2xl overflow-hidden border-2 border-gray-800"
         whileHover={{ 
