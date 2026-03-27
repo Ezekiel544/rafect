@@ -23,9 +23,9 @@ const services = [
   {
     icon: Bookmark,
     title: 'Community Building',
-    description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
-     imageUrl: Thirdimg,
-      linkUrl: '#',
+    // description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
+    //  imageUrl: Thirdimg,
+    //   linkUrl: '#',
      
   },
     {
