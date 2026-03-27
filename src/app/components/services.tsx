@@ -119,11 +119,11 @@ export function Services() {
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.6 }}
                     >
-                       <img
+                       {/* <img
                         src={`${(service.imageUrl)}`}
                         alt={service.title}
                         className="w-full h-full object-cover"
-                      /> 
+                      />  */}
                       
                       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent" />
                     </motion.div>
