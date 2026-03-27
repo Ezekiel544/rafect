@@ -64,7 +64,7 @@ export function PhilosophySection() {
                 <div className="flex items-start gap-4">
                   <principle.icon className="w-6 h-6 text-white flex-shrink-0 mt-1" />
                   <div>
-                    {/* <h3 className="text-xl text-white mb-3">{principle.title}</h3> */}
+                    <h3 className="text-xl text-white mb-3">{principle.title}</h3>
                     <p className="text-white/60 text-sm leading-relaxed">{principle.description}</p>
                   </div>
                 </div>
