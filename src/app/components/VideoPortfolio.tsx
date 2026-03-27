@@ -123,13 +123,13 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
         <div className="relative aspect-video overflow-hidden ">
           {/* Actual video elements*/}
           <video
-            ref={videoRef}
-            className="w-full h-full object-cover"
-            loop
-            muted={isMuted}
-            playsInline
-            poster={`https://source.unsplash.com/800x450/?${encodeURIComponent(video.thumbnail)}`}
-          >
+          //   ref={videoRef}
+          //   className="w-full h-full object-cover"
+          //   loop
+          //   muted={isMuted}
+          //   playsInline
+          //   poster={`https://source.unsplash.com/800x450/?${encodeURIComponent(video.thumbnail)}`}
+          // >
             {/* Replace this with actual video source when availables added*/}
             <source src={video.videoUrl} type="video/mp4" />
           </video>
