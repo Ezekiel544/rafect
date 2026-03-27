@@ -38,9 +38,9 @@ const videos = [
     id: 4,
     title: 'meduim onboarding class',
     description: 'Animated breakdown of complex DeFi mechanics',
-    thumbnail: 'animation motion graphics',
-    category: 'Motion Design',
-    videoUrl: Videofour,
+    // thumbnail: 'animation motion graphics',
+    // category: 'Motion Design',
+    // videoUrl: Videofour,
   },
   {
     id: 5,
