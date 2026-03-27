@@ -111,25 +111,25 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
       onHoverEnd={() => setHoveredIndex(false)}
       className="group relative"
     >
-      {/* <motion.div
+      <motion.div
         className="relative  rounded-2xl overflow-hidden border-2 border-gray-800"
         whileHover={{ 
           y: -10,
           borderColor: '#ffffff',
         }}
         transition={{ duration: 0.3 }}
-      > */}
+      >
         {/* Video players */}
         <div className="relative aspect-video overflow-hidden ">
           {/* Actual video elements*/}
-          <video
+          {/* <video
             ref={videoRef}
             className="w-full h-full object-cover"
             loop
             muted={isMuted}
             playsInline
             poster={`https://source.unsplash.com/800x450/?${encodeURIComponent(video.thumbnail)}`}
-          >
+          > */}
             {/* Replace this with actual video source when availables added*/}
             <source src={video.videoUrl} type="video/mp4" />
           </video>
