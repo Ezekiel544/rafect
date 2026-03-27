@@ -239,14 +239,14 @@ export function VideoPortfolio() {
   return (
     <section className="relative py-20 lg:py-32 overflow-hidden">
       {/* Background decorations*/}
-      <motion.div
+      {/* <motion.div
         className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"
         animate={{
           scale: [1, 1.3, 1],
           opacity: [0.2, 0.4, 0.2],
         }}
         transition={{ duration: 10, repeat: Infinity }}
-      />
+      /> */}
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section header */}
