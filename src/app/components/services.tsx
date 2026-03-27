@@ -80,9 +80,9 @@ export function Services() {
             className="inline-block mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            {/* <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
+            <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
               What I Do
-            </span> */}
+            </span>
           </motion.div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Turning Hype Into Real Growth
@@ -95,7 +95,7 @@ export function Services() {
         {/* Services grid added here*/}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
-            const Icon = service.icon;
+            // const Icon = service.icon;
             return (
               <a href={`${(service.linkUrl)}`} target="_blank">
               <motion.div
