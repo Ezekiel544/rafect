@@ -20,21 +20,21 @@ const services = [
     imageUrl: Secondimg,
     linkUrl: '#',
   },
-  {
-    icon: Bookmark,
-    title: 'Community Building',
-    description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
-     imageUrl: Thirdimg,
-      linkUrl: '#',
+  // {
+  //   icon: Bookmark,
+  //   title: 'Community Building',
+  //   description: 'Leading Royal Raiders to drive organic engagement,community activity around your project.',
+  //    imageUrl: Thirdimg,
+  //     linkUrl: '#',
      
-  },
-  //   {
-  //   icon: Badge,
-  //   title: 'Web3 Marketing Strategist',
-  //   description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
-  //   imageUrl: Firstimg,
-  //   linkUrl: '#',
   // },
+    {
+    icon: Badge,
+    title: 'Web3 Marketing Strategist',
+    description: 'I design data-driven growth campaigns that help blockchain projects gain visibility, attract users, and scale faster.',
+    imageUrl: Firstimg,
+    linkUrl: '#',
+  },
   {
     icon: Image,
     title: 'VC & Market Analysis',
