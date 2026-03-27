@@ -218,7 +218,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
         </div>
 
         {/* Animated glow effects*/}
-        {/* <motion.div
+        <motion.div
           className="absolute inset-0 pointer-events-none rounded-2xl"
           animate={{
             boxShadow: hoveredIndex 
@@ -228,7 +228,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           transition={{ duration: 0.3 }}
         />
       </motion.div>
-    </motion.div> */}
+    </motion.div>
   );
 }
 
