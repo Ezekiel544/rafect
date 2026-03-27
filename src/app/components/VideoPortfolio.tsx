@@ -250,19 +250,19 @@ export function VideoPortfolio() {
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section header */}
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
-        > */}
+        >
           <motion.div
             className="inline-block mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
+            {/* <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
               Portfolio
-            </span>
+            </span> */}
           </motion.div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Featured Work
