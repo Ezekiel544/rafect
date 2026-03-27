@@ -14,11 +14,11 @@ export function Navbar() {
         // Scrolling up
         setIsVisible(true);
       } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        // Scrolling down here now and forvere
+        // Scrolling down here now
         setIsVisible(false);
       }
       
-      // setLastScrollY(currentScrollY);
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
