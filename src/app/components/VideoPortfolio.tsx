@@ -22,9 +22,9 @@ const videos = [
     id: 2,
     title: 'Motion design intro for Dabba Network',
     description: 'High-retention clips from a 2-hour AMA session',
-    // thumbnail: 'podcast recording studio',
-    // category: 'Clipping',
-    // videoUrl: Videotwo,
+    thumbnail: 'podcast recording studio',
+    category: 'Clipping',
+    videoUrl: Videotwo,
   },
   {
     id: 3,
