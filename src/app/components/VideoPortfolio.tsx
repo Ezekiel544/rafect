@@ -264,9 +264,9 @@ export function VideoPortfolio() {
               Portfolio
             </span>
           </motion.div>
-          {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Featured Work
-          </h2> */}
+          </h2>
           <p className="text-gray-400 text-lg sm:text-xl max-w-3xl mx-auto">
             A showcase of recent projects and campaigns
           </p>
