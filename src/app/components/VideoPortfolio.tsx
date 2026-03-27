@@ -260,13 +260,13 @@ export function VideoPortfolio() {
             className="inline-block mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            {/* <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
+            <span className="text-gray-400 text-sm sm:text-base tracking-[0.3em] uppercase border border-gray-600 px-6 py-2 rounded-full">
               Portfolio
-            </span> */}
+            </span>
           </motion.div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+          {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Featured Work
-          </h2>
+          </h2> */}
           <p className="text-gray-400 text-lg sm:text-xl max-w-3xl mx-auto">
             A showcase of recent projects and campaigns
           </p>
