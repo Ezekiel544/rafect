@@ -250,12 +250,12 @@ export function VideoPortfolio() {
 
       <div ref={ref} className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section header */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
-        >
+        > */}
           <motion.div
             className="inline-block mb-4"
             whileHover={{ scale: 1.05 }}
