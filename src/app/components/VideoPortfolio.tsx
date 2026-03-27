@@ -93,11 +93,11 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
     }
   };
 
-  // const toggleMute = () => {
-  //   if (videoRef.current) {
-  //     videoRef.current.muted = !isMuted;
-  //     setIsMuted(!isMuted);
-  //   }
+  const toggleMute = () => {
+    if (videoRef.current) {
+      // videoRef.current.muted = !isMuted;
+      // setIsMuted(!isMuted);
+    }
   };
 
   return (
