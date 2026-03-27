@@ -16,8 +16,8 @@ const services = [
   {
     icon: Image,
     title: 'VC & Market Analysis',
-    description: 'Breaking down trends, tokenomics, and opportunities to help projects and investors make smarter decisions.',
-    imageUrl: Secondimg,
+    // description: 'Breaking down trends, tokenomics, and opportunities to help projects and investors make smarter decisions.',
+    // imageUrl: Secondimg,
     linkUrl: '#',
   },
   {
