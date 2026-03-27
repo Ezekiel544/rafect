@@ -20,14 +20,14 @@ export function AboutSection() {
               I'm a <strong className="text-white">Senior Software Engineer</strong> and <strong className="text-white">Offensive Security Researcher</strong> from Baku, Azerbaijan.
             </p>
             
-            <p>
+            {/* <p>
               I hold <strong className="text-white">Bachelor's degree in Information Technologies (IT)</strong> and <strong className="text-white">Master's degree in Management Information Systems (MIS)</strong>.
             </p>
             
             <p>
               I currently have an active <strong className="text-white">IELTS CEFR-C1</strong> with a score of <strong className="text-white">7.5 (2025-2027)</strong>, and previously had a score of <strong className="text-white">7.0 (2023-2025)</strong>.
             </p>
-            
+             */}
             <p>
               With over <strong className="text-white">6+ years</strong> of hands-on experience, I acquired an extremely diverse skill set that spans <strong className="text-white">Full-Stack Development, Reverse engineering, Vulnerability Research, Cloud Infrastructure, Offensive Tooling Development, DevSecOps</strong>, and my main expertise – <strong className="text-white">Secure Software Development</strong>.
             </p>
