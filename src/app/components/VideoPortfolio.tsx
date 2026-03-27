@@ -202,9 +202,9 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           <h3 className="text-white text-lg sm:text-xl font-bold mb-2 group-hover:text-gray-300 transition-colors">
             {video.title}
           </h3>
-           <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
+           {/* <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
             {video.description}
-          </p> 
+          </p>  */}
 
           {/* View buttons*/}
            <motion.button
