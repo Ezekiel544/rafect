@@ -47,9 +47,9 @@ export function PhilosophySection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8 text-white">
             <span className="border-l-4 border-white pl-4">PHILOSOPHY BEHIND MY WORK</span>
           </h2>
-          {/* <p className="text-xs md:text-sm text-white/60 mb-8 md:mb-12">
+          <p className="text-xs md:text-sm text-white/60 mb-8 md:mb-12">
             Principles that guide my approach to security research and software engineering.
-          </p> */}
+          </p>
           
           <div className="grid md:grid-cols-2 gap-6">
             {principles.map((principle, idx) => (
