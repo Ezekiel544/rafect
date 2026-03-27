@@ -187,24 +187,24 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.5 }}
             >
-              <motion.div
+              {/* <motion.div
                 className="w-2 h-2 bg-red-500 rounded-full"
                 animate={{ opacity: [1, 0.3, 1] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
               />
               <span className="text-white text-xs">Playing</span>
-            </motion.div>
+            </motion.div> */}
           )}
         </div>
 
         {/* Video infos */}
-        {/* <div className="p-6">
+        <div className="p-6">
           <h3 className="text-white text-lg sm:text-xl font-bold mb-2 group-hover:text-gray-300 transition-colors">
             {video.title}
           </h3>
            <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
             {video.description}
-          </p>  */}
+          </p> 
 
           {/* View buttons*/}
            <motion.button
