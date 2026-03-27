@@ -54,7 +54,7 @@ const services = [
 
 export function Services() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, amount: 0.2 });
+  // const isInView = useInView(ref, { once: false, amount: 0.2 });
 
   return (
     <section className="relative py-20 lg:py-32 overflow-hidden">
