@@ -291,12 +291,12 @@ export function VideoPortfolio() {
         </div>
 
         {/* Stats section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8"
-        >
+        > */}
           {[
             { label: 'Raised for projects', value: '$10m+' },
             { label: 'Total Reach', value: '3M+' },
