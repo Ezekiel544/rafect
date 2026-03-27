@@ -310,10 +310,10 @@ export function VideoPortfolio() {
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
             >
-              {/* <motion.div
+              <motion.div
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-2"
                 whileHover={{ scale: 1.1 }}
-              > */}
+              >
                 {stat.value}
               </motion.div>
               <div className="text-gray-400 text-sm sm:text-base">
