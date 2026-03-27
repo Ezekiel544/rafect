@@ -76,11 +76,11 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
         console.log('Auto-play blocked');
       });
       setIsPlaying(true);
-    } else if (!cardInView && videoRef.current) {
-      videoRef.current.pause();
-      setIsPlaying(false);
-    }
-  }, [cardInView]);
+  //   } else if (!cardInView && videoRef.current) {
+  //     videoRef.current.pause();
+  //     setIsPlaying(false);
+  //   }
+  // }, [cardInView]);
 
   const togglePlayPause = () => {
     if (videoRef.current) {
@@ -95,8 +95,8 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
 
   const toggleMute = () => {
     if (videoRef.current) {
-      // videoRef.current.muted = !isMuted;
-      // setIsMuted(!isMuted);
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
     }
   };
 
