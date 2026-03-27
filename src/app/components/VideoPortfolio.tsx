@@ -158,7 +158,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
             </motion.button>
 
             {/* Mute/Unmute button */}
-            {/* <motion.button
+            <motion.button
               onClick={toggleMute}
               className="bg-white/20 backdrop-blur-sm border-2 border-white rounded-full p-4 hover:bg-white/30 transition-colors"
               whileHover={{ scale: 1.1 }}
@@ -170,7 +170,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
                 <Volume2 className="w-5 h-5 text-white" />
               )}
             </motion.button>
-          </motion.div> */}
+          </motion.div>
 
           {/* Category badge */}
           <div className="absolute top-4 left-4 z-10">
@@ -187,7 +187,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.5 }}
             >
-              <motion.div
+              {/* <motion.div
                 className="w-2 h-2 bg-red-500 rounded-full"
                 animate={{ opacity: [1, 0.3, 1] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
@@ -195,7 +195,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               <span className="text-white text-xs">Playing</span>
             </motion.div>
           )}
-        </div>
+        </div> */}
 
         {/* Video infos */}
         <div className="p-6">
