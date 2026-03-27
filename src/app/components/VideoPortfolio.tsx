@@ -187,13 +187,13 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.5 }}
             >
-              {/* <motion.div
+              <motion.div
                 className="w-2 h-2 bg-red-500 rounded-full"
                 animate={{ opacity: [1, 0.3, 1] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
               />
               <span className="text-white text-xs">Playing</span>
-            </motion.div> */}
+            </motion.div>
           )}
         </div>
 
@@ -218,7 +218,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
         </div>
 
         {/* Animated glow effects*/}
-        <motion.div
+        {/* <motion.div
           className="absolute inset-0 pointer-events-none rounded-2xl"
           animate={{
             boxShadow: hoveredIndex 
@@ -228,7 +228,7 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           transition={{ duration: 0.3 }}
         />
       </motion.div>
-    </motion.div>
+    </motion.div> */}
   );
 }
 
