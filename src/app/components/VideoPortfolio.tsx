@@ -227,8 +227,8 @@ function VideoCard({ video, index, isInView }: { video: typeof videos[0]; index:
           }}
           transition={{ duration: 0.3 }}
         />
-      </motion.div> */}
-    </motion.div>
+      </motion.div>
+    </motion.div> */}
   );
 }
 
