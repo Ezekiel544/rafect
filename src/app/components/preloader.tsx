@@ -60,12 +60,12 @@ export function Preloader() {
             animate={{ opacity: [0, 1, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, delay: 0.2 }}
           >
-            .
+            {/* .
           </motion.span>
           <motion.span
             animate={{ opacity: [0, 1, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, delay: 0.4 }}
-          >
+          > */}
             .
           </motion.span>
           <motion.span
