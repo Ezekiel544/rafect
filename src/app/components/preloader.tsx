@@ -20,10 +20,10 @@ export function Preloader() {
           
           {/* Middle rotating rings*/}
           <motion.div
-            className="absolute inset-2 w-28 h-28 border-4 border-transparent border-r-gray-400 rounded-full"
-            animate={{ rotate: -360 }}
-            transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-          />
+          //   className="absolute inset-2 w-28 h-28 border-4 border-transparent border-r-gray-400 rounded-full"
+          //   animate={{ rotate: -360 }}
+          //   transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+          // />
           
           {/* Inner rotating rings here*/}
           <motion.div
