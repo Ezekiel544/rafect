@@ -12,12 +12,12 @@ export function Preloader() {
         {/* Rotating rings containers added*/}
         <div className="relative w-32 h-32">
           {/* Outer rotating rings added */}
-          <motion.div
+          {/* <motion.div
             className="absolute inset-0 w-32 h-32 border-4 border-transparent border-t-white rounded-full"
             animate={{ rotate: 360 }}
             transition={{ duration: 1.5, repeat: Infinity, ease: "linear" }}
           />
-          
+           */}
           {/* Middle rotating rings*/}
           <motion.div
             className="absolute inset-2 w-28 h-28 border-4 border-transparent border-r-gray-400 rounded-full"
