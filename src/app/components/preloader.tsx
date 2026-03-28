@@ -50,11 +50,11 @@ export function Preloader() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          <motion.span
+          {/* <motion.span
             animate={{ opacity: [1, 0.5, 1] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           >
-            LOADING
+            LOADING */}
           </motion.span>
           <motion.span
             animate={{ opacity: [0, 1, 0] }}
