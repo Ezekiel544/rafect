@@ -274,9 +274,9 @@ export function VideoPortfolio() {
 
         {/* Videos grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {/* {videos.map((video, index) => (
+          {videos.map((video, index) => (
             <VideoCard key={video.id} video={video} index={index} isInView={isInView} />
-          ))} */}
+          ))}
 
           {/* CTA Card - "Your Project Here" */}
           <motion.div
