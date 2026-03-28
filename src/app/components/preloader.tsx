@@ -26,12 +26,12 @@ export function Preloader() {
           />
           
           {/* Inner rotating rings here*/}
-          <motion.div
+          {/* <motion.div
             className="absolute inset-4 w-24 h-24 border-4 border-transparent border-b-gray-600 rounded-full"
             animate={{ rotate: 360 }}
             transition={{ duration: 2.5, repeat: Infinity, ease: "linear" }}
           />
-          
+           */}
           {/* Center pulsing dot here now*/}
           <motion.div
             className="absolute inset-0 flex items-center justify-center"
@@ -54,7 +54,7 @@ export function Preloader() {
             animate={{ opacity: [1, 0.5, 1] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           >
-            {/* LOADING */}
+            LOADING
           </motion.span>
           <motion.span
             animate={{ opacity: [0, 1, 0] }}
