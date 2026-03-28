@@ -39,10 +39,10 @@ export function Preloader() {
             animate={{ scale: 1.2, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
           >
-            <div className="w-4 h-4 bg-white rounded-full" />
+            {/* <div className="w-4 h-4 bg-white rounded-full" />
           </motion.div>
         </div>
-        
+         */}
         {/* Loading text  */}
         <motion.div
           className="text-white text-xl tracking-widest"
