@@ -35,9 +35,9 @@ export function Preloader() {
           {/* Center pulsing dot here now*/}
           <motion.div
             className="absolute inset-0 flex items-center justify-center"
-            initial={{ scale: 0.8, opacity: 0.5 }}
-            animate={{ scale: 1.2, opacity: 1 }}
-            transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
+            // initial={{ scale: 0.8, opacity: 0.5 }}
+            // animate={{ scale: 1.2, opacity: 1 }}
+            // transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
           >
             <div className="w-4 h-4 bg-white rounded-full" />
           </motion.div>
