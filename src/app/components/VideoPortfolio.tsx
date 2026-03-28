@@ -267,9 +267,9 @@ export function VideoPortfolio() {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Featured Work
           </h2>
-          <p className="text-gray-400 text-lg sm:text-xl max-w-3xl mx-auto">
+          {/* <p className="text-gray-400 text-lg sm:text-xl max-w-3xl mx-auto">
             A showcase of recent projects and campaigns
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Videos grid */}
